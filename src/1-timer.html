@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
+    <title>Timer page</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <div class="input-date">
+      <input type="text" id="datetime-picker" />
+      <button id="start-button" type="button" data-start>Start</button>
+    </div>
 
     <div class="timer">
       <div class="field">
@@ -29,6 +31,6 @@
         <span class="label">Seconds</span>
       </div>
     </div>
-    <script type="module" src="./js/1-timer.js"></script>
+    <script type="module" src="./js/1-timer.js" type="module"></script>
   </body>
 </html>
