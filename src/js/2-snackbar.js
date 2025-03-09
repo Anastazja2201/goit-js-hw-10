@@ -1,9 +1,8 @@
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
-import iconDagger from '../img/icon/Group.png';
-import iconOk from '../img/icon/form icon/circle Ok.png';
-import iconCaution from '../img/icon/form icon/triangle Caution.png';
-import iconBell from '../img/icon/form icon/bell welcome.png';
+// Описаний у документації
+import iziToast from "izitoast";
+// Додатковий імпорт стилів
+import "izitoast/dist/css/iziToast.min.css";
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('.form');
